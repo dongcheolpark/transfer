@@ -19,7 +19,7 @@ public:
 	}
 	~Image() {
 		if(Input_data != NULL) {
-			delete Input_data
+			delete Input_data;
 		}
 	}
 	void Load(); 
