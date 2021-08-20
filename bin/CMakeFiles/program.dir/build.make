@@ -83,17 +83,65 @@ CMakeFiles/program.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/parkdongcheol/programming/transfer/src/main.cpp -o CMakeFiles/program.dir/src/main.cpp.s
 
+CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o: ../src/ImageLoader/ImageTransfer.cpp
+CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/parkdongcheol/programming/transfer/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o -MF CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o.d -o CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o -c /Users/parkdongcheol/programming/transfer/src/ImageLoader/ImageTransfer.cpp
+
+CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/parkdongcheol/programming/transfer/src/ImageLoader/ImageTransfer.cpp > CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.i
+
+CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/parkdongcheol/programming/transfer/src/ImageLoader/ImageTransfer.cpp -o CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.s
+
+CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o: ../src/ImageLoader/Image.cpp
+CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/parkdongcheol/programming/transfer/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o -MF CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o.d -o CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o -c /Users/parkdongcheol/programming/transfer/src/ImageLoader/Image.cpp
+
+CMakeFiles/program.dir/src/ImageLoader/Image.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/ImageLoader/Image.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/parkdongcheol/programming/transfer/src/ImageLoader/Image.cpp > CMakeFiles/program.dir/src/ImageLoader/Image.cpp.i
+
+CMakeFiles/program.dir/src/ImageLoader/Image.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/ImageLoader/Image.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/parkdongcheol/programming/transfer/src/ImageLoader/Image.cpp -o CMakeFiles/program.dir/src/ImageLoader/Image.cpp.s
+
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o: CMakeFiles/program.dir/flags.make
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o: ../src/ImageLoader/PngImage.cpp
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o: CMakeFiles/program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/parkdongcheol/programming/transfer/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o -MF CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o.d -o CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o -c /Users/parkdongcheol/programming/transfer/src/ImageLoader/PngImage.cpp
+
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/parkdongcheol/programming/transfer/src/ImageLoader/PngImage.cpp > CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.i
+
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/parkdongcheol/programming/transfer/src/ImageLoader/PngImage.cpp -o CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.s
+
 # Object files for target program
 program_OBJECTS = \
-"CMakeFiles/program.dir/src/main.cpp.o"
+"CMakeFiles/program.dir/src/main.cpp.o" \
+"CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o" \
+"CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o" \
+"CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o"
 
 # External object files for target program
 program_EXTERNAL_OBJECTS =
 
 program: CMakeFiles/program.dir/src/main.cpp.o
+program: CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o
+program: CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o
+program: CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o
 program: CMakeFiles/program.dir/build.make
 program: CMakeFiles/program.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/parkdongcheol/programming/transfer/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable program"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/parkdongcheol/programming/transfer/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable program"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/program.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

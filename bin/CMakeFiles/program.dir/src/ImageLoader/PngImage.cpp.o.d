@@ -1,5 +1,6 @@
-CMakeFiles/program.dir/src/main.cpp.o: \
-  /Users/parkdongcheol/programming/transfer/src/main.cpp \
+CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o: \
+  /Users/parkdongcheol/programming/transfer/src/ImageLoader/PngImage.cpp \
+  /Users/parkdongcheol/programming/transfer/src/ImageLoader/../Image.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \
@@ -230,6 +231,4 @@ CMakeFiles/program.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/stack \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
   /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip \
-  /Users/parkdongcheol/programming/transfer/src/ImageTransfer.hpp \
-  /Users/parkdongcheol/programming/transfer/src/Image.hpp
+  /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip

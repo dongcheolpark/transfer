@@ -129,6 +129,78 @@ program/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/build
 .PHONY : program/fast
 
+src/ImageLoader/Image.o: src/ImageLoader/Image.cpp.o
+.PHONY : src/ImageLoader/Image.o
+
+# target to build an object file
+src/ImageLoader/Image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/Image.cpp.o
+.PHONY : src/ImageLoader/Image.cpp.o
+
+src/ImageLoader/Image.i: src/ImageLoader/Image.cpp.i
+.PHONY : src/ImageLoader/Image.i
+
+# target to preprocess a source file
+src/ImageLoader/Image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/Image.cpp.i
+.PHONY : src/ImageLoader/Image.cpp.i
+
+src/ImageLoader/Image.s: src/ImageLoader/Image.cpp.s
+.PHONY : src/ImageLoader/Image.s
+
+# target to generate assembly for a file
+src/ImageLoader/Image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/Image.cpp.s
+.PHONY : src/ImageLoader/Image.cpp.s
+
+src/ImageLoader/ImageTransfer.o: src/ImageLoader/ImageTransfer.cpp.o
+.PHONY : src/ImageLoader/ImageTransfer.o
+
+# target to build an object file
+src/ImageLoader/ImageTransfer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.o
+.PHONY : src/ImageLoader/ImageTransfer.cpp.o
+
+src/ImageLoader/ImageTransfer.i: src/ImageLoader/ImageTransfer.cpp.i
+.PHONY : src/ImageLoader/ImageTransfer.i
+
+# target to preprocess a source file
+src/ImageLoader/ImageTransfer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.i
+.PHONY : src/ImageLoader/ImageTransfer.cpp.i
+
+src/ImageLoader/ImageTransfer.s: src/ImageLoader/ImageTransfer.cpp.s
+.PHONY : src/ImageLoader/ImageTransfer.s
+
+# target to generate assembly for a file
+src/ImageLoader/ImageTransfer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/ImageTransfer.cpp.s
+.PHONY : src/ImageLoader/ImageTransfer.cpp.s
+
+src/ImageLoader/PngImage.o: src/ImageLoader/PngImage.cpp.o
+.PHONY : src/ImageLoader/PngImage.o
+
+# target to build an object file
+src/ImageLoader/PngImage.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.o
+.PHONY : src/ImageLoader/PngImage.cpp.o
+
+src/ImageLoader/PngImage.i: src/ImageLoader/PngImage.cpp.i
+.PHONY : src/ImageLoader/PngImage.i
+
+# target to preprocess a source file
+src/ImageLoader/PngImage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.i
+.PHONY : src/ImageLoader/PngImage.cpp.i
+
+src/ImageLoader/PngImage.s: src/ImageLoader/PngImage.cpp.s
+.PHONY : src/ImageLoader/PngImage.s
+
+# target to generate assembly for a file
+src/ImageLoader/PngImage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/ImageLoader/PngImage.cpp.s
+.PHONY : src/ImageLoader/PngImage.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... program"
+	@echo "... src/ImageLoader/Image.o"
+	@echo "... src/ImageLoader/Image.i"
+	@echo "... src/ImageLoader/Image.s"
+	@echo "... src/ImageLoader/ImageTransfer.o"
+	@echo "... src/ImageLoader/ImageTransfer.i"
+	@echo "... src/ImageLoader/ImageTransfer.s"
+	@echo "... src/ImageLoader/PngImage.o"
+	@echo "... src/ImageLoader/PngImage.i"
+	@echo "... src/ImageLoader/PngImage.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

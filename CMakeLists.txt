@@ -4,4 +4,9 @@ project(
 	Transfer
 )
 
-add_executable (program src/main.cpp)
+add_executable (program
+	src/main.cpp
+	src/ImageLoader/ImageTransfer.cpp
+	src/ImageLoader/Image.cpp
+	src/ImageLoader/PngImage.cpp
+)
