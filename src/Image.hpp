@@ -10,6 +10,8 @@ protected:
 	//signatures
 	const std::string Png_Header_Signature;
 	std::string File_Path;
+	int Width;
+	int Height;
 	unsigned char * Input_data;
 	unsigned char * Binary_data;
 public:
