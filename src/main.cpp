@@ -5,6 +5,6 @@
 using namespace std;
 
 int main() {
-	ImageTransfer test("test.png");
+	ImageTransfer test("../test2.png");
 	test.run();
 }
