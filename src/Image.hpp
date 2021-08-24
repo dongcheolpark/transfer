@@ -4,11 +4,11 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include <cmath>
 
 class Image {
 protected:
 	//signatures
-	const std::string Png_Header_Signature;
 	std::string File_Path;
 	int Width;
 	int Height;
@@ -27,12 +27,13 @@ public:
 		}
 	}
 	void Load(); 
-	virtual void decode_data();
+	virtual void decode_data(){};
 	void TestUnit();
 };
 
 class PngImage : public Image{
 private:
+	const unsigned char Header_Signature[8];
 	unsigned long crc_table[256];
 	bool crc_table_computed;
 	void make_crc_table();
@@ -40,9 +41,15 @@ private:
 	unsigned long crc(unsigned char *buf, int len) {
 		 return update_crc(0xffffffffL, buf, len) ^ 0xffffffffL;
 	}
+	int ChunkDataToNum(int,int); 
 public:
 	PngImage(std::string _File_Path)
-	 : Image(_File_Path), crc_table_computed(false) {}
+	 : Image(_File_Path),
+	  crc_table_computed(false),
+	  Header_Signature {0x89, 0x50, 0x4E, 0x47, 0x0D, 0x0A, 0x1A, 0x0A}
+	{
+
+	}
 	void decode_data();
 };
 

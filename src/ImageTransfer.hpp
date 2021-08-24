@@ -22,7 +22,6 @@ public :
 	}
 	void load(std::string File_Path);
 	void run() {
-		data->TestUnit();
 	}
 };
 

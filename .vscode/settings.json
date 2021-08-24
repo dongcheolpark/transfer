@@ -3,5 +3,6 @@
 		"*.py": "python",
 		"fstream": "cpp",
 		"iosfwd": "cpp"
-	}
+	},
+	"C_Cpp.errorSquiggles": "Disabled"
 }
