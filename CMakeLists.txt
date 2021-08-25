@@ -4,7 +4,8 @@ project(
 	Transfer
 )
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 11)
+add_subdirectory(FreeImage)
 
 add_executable (program
 	src/main.cpp
@@ -12,3 +13,5 @@ add_executable (program
 	src/ImageLoader/Image.cpp
 	src/ImageLoader/PngLoader.cpp
 )
+target_include_directories(program PUBLIC ${FreeImage_SOURCE_DIR}/Source)
+target_link_libraries(program FreeImage)
